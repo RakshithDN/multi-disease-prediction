@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disease Prediction</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🩺 Disease Prediction</h1>
+      <p class="subtitle">Type your symptoms in plain English and get top probable diseases.</p>
+    </header>
+
+    <main>
+      <label for="symptomInput" class="label">Describe your symptoms</label>
+      <textarea id="symptomInput" placeholder="e.g., I have fever, headache and sore throat"></textarea>
+
+      <button id="predictBtn">Predict Disease</button>
+
+      <div id="status" class="status"></div>
+
+      <div id="results" class="results hidden">
+        <h2>Predicted Diseases</h2>
+        <div id="predList"></div>
+
+        <h3>Matched Symptoms</h3>
+        <div id="matched" class="matched"></div>
+      </div>
+    </main>
+
+    <footer>
+      <small>Simple demo — not a medical diagnosis. For demonstration only.</small>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

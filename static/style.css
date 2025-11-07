@@ -1,0 +1,111 @@
+:root {
+    --bg: #f4f9ff;
+    --card: #ffffff;
+    --accent: #0066cc;
+    --muted: #6b7280;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Inter, Segoe UI, Arial, sans-serif;
+    background: var(--bg);
+    color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app {
+    width: 100%;
+    max-width: 720px;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(2, 6, 23, 0.08);
+    padding: 28px;
+}
+
+header h1 {
+    margin: 0 0 6px 0;
+    font-size: 24px
+}
+
+.subtitle {
+    margin: 0;
+    color: var(--muted)
+}
+
+.label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #e6edf3;
+    font-size: 14px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 12px;
+    background: var(--accent);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
+}
+
+button:active {
+    transform: translateY(1px)
+}
+
+.status {
+    margin-top: 12px;
+    color: var(--muted)
+}
+
+.results {
+    margin-top: 18px
+}
+
+.hidden {
+    display: none
+}
+
+#predList p {
+    background: #f1f7ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-weight: 600;
+}
+
+.matched span {
+    display: inline-block;
+    background: #eef2ff;
+    color: #0f172a;
+    padding: 6px 10px;
+    border-radius: 999px;
+    margin: 6px 6px 0 0;
+    font-size: 13px;
+}
+
+footer {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 12px
+}

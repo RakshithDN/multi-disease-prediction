@@ -1,0 +1,20 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore model files (too large for GitHub)
+*.pkl
+*.h5
+*.keras
+*.joblib
+*.zip
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
