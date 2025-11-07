@@ -120,20 +120,22 @@ Features:
 - Display of top 3 probable diseases with prediction confidence
 - Responsive design
 
-Example layout:
-```
-+-------------------------------------------+
+<h3 align="center">🖥️ Example Layout</h3>
 
-🩺 Multi Disease Prediction System
-[ I have fever and sore throat... ]
-[ Predict ]
--------------------------------------------
-Predicted Diseases:
-1. Typhoid — 87.65%
-2. Dengue — 7.41%
-3. Flu — 4.94%
+<pre align="center">
 +-------------------------------------------+
-```
+| 🩺 Multi Disease Prediction System        |
+|-------------------------------------------|
+| [ I have fever and sore throat...      ]  |
+| [ Predict ]                              |
+|-------------------------------------------|
+| Predicted Diseases:                      |
+| 1. Typhoid — 87.65%                      |
+| 2. Dengue — 7.41%                        |
+| 3. Flu — 4.94%                           |
++-------------------------------------------+
+</pre>
+
 
 ---
 
@@ -174,21 +176,17 @@ cd multi-disease-prediction
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Place your trained models:
+### 3️⃣ Place your trained models
 
-Copy the following files into the trained_models/ folder:
+Copy the following files into the `trained_models/` folder:
 
-naive_bayes_model.pkl
+- `naive_bayes_model.pkl`
+- `decision_tree_model.pkl`
+- `logistic_regression_model.pkl`
+- `scaler.pkl`
+- `label_encoder.pkl`
+- `symptom_columns.pkl`
 
-decision_tree_model.pkl
-
-logistic_regression_model.pkl
-
-scaler.pkl
-
-label_encoder.pkl
-
-symptom_columns.pkl
 
 ### 4️⃣ Run the Flask app:
 python app.py
@@ -208,15 +206,13 @@ http://127.0.0.1:5000
 
 ## 🚀 Future Enhancements
 
-Integrate SBERT symptom similarity model for free-text input
+- Fine-tune or upgrade the SBERT model for better medical text understanding  
+- Expand the dataset to include more diseases and diverse symptom variations  
+- Implement a **weighted ensemble** approach (based on model confidence scores)  
+- Deploy the web app on a public cloud (Render / Hugging Face / Railway)  
+- Add user authentication and history tracking  
+- Build a REST API version for integration with hospital systems or mobile apps
 
-Add more diseases and symptoms
-
-Use a weighted ensemble (based on confidence)
-
-Deploy to cloud (Render / Hugging Face / Railway)
-
-Add authentication for multiple users
 
 ## 🙌 Credits
 **Developed by:** Rakshith D N  
