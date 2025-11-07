@@ -121,4 +121,112 @@ Features:
 - Responsive design
 
 Example layout:
++-------------------------------------------+
 
+🩺 Multi Disease Prediction System
+[ I have fever and sore throat... ]
+[ Predict ]
+-------------------------------------------
+Predicted Diseases:
+1. Typhoid — 87.65%
+2. Dengue — 7.41%
+3. Flu — 4.94%
++-------------------------------------------+
+
+---
+
+## 📁 Project Folder Structure
+
+
+
+multi-disease-prediction/
+│
+├── app.py # Flask application
+├── requirements.txt # Project dependencies
+├── Procfile # (for deployment, optional)
+├── README.md # Project documentation
+│
+├── trained_models/ # Trained model files (not uploaded)
+│ └── README.txt # Info about missing models
+│
+├── templates/
+│ └── index.html # Frontend HTML
+│
+└── static/
+├── style.css # Frontend styles
+└── app.js # Frontend scripts
+
+
+---
+
+## 🖥️ How to Run the Project Locally
+
+### 1️⃣ Clone the repository:
+```bash
+git clone https://github.com/RakshithDN/multi-disease-prediction.git
+cd multi-disease-prediction
+
+2️⃣ Install dependencies:
+pip install -r requirements.txt
+
+3️⃣ Place your trained models:
+
+Copy the following files into the trained_models/ folder:
+
+naive_bayes_model.pkl
+
+decision_tree_model.pkl
+
+logistic_regression_model.pkl
+
+scaler.pkl
+
+label_encoder.pkl
+
+symptom_columns.pkl
+
+4️⃣ Run the Flask app:
+python app.py
+
+5️⃣ Open in browser:
+http://127.0.0.1:5000
+
+📈 Results & Accuracy
+Model	Accuracy	Notes
+Decision Tree	81.62%	Simple, interpretable
+Naive Bayes	86.67%	Best classical model
+Logistic Regression	86.71%	Stable and fast
+Deep Learning (DNN)	86.02%	High accuracy but heavy
+Ensemble (Voting)	86.25%	Balanced & consistent
+🚀 Future Enhancements
+
+Integrate SBERT symptom similarity model for free-text input
+
+Add more diseases and symptoms
+
+Use a weighted ensemble (based on confidence)
+
+Deploy to cloud (Render / Hugging Face / Railway)
+
+Add authentication for multiple users
+
+🙌 Credits
+
+Developed by: Rakshith D N
+Guided by: [Your mentor / institution name]
+Dataset: Diseases and Symptoms Dataset (Kaggle)
+Frameworks: Flask, scikit-learn, TensorFlow
+
+🧾 License
+
+This project is open-source for educational purposes.
+You are free to modify and use it for learning or research.
+
+
+---
+
+✅ **After you paste this into your `README.md` file**, commit and push it:
+```bash
+git add README.md
+git commit -m "Added detailed project README"
+git push origin main
