@@ -138,6 +138,25 @@ Features:
 
 
 ---
+## 🎨 Frontend Interface
+
+The frontend is built with **HTML, CSS, and JavaScript**, designed for simplicity and usability.
+
+Features:
+- Symptom input text box  
+- “Predict” button  
+- Display of top 3 probable diseases with prediction confidence  
+- Responsive design  
+
+---
+
+### 🖼️ Web App Screenshot
+
+<p align="center">
+  <img src="static/screenshot.png" alt="Web App Screenshot" width="800"/>
+</p>
+
+---
 
 ## 📁 Project Folder Structure
 
@@ -159,6 +178,7 @@ multi-disease-prediction/
 └── static/
 ├── style.css # Frontend styles
 └── app.js # Frontend scripts
+└── screenshot.png  
 ```
 
 ---
@@ -222,7 +242,7 @@ http://127.0.0.1:5000
 
 ## 🧾 License
 
-This project is open-source for educational purposes.
+This project is open-source for educational purposes.  
 You are free to modify and use it for learning or research.
 
 
