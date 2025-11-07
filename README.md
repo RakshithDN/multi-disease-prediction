@@ -121,6 +121,7 @@ Features:
 - Responsive design
 
 Example layout:
+```
 +-------------------------------------------+
 
 🩺 Multi Disease Prediction System
@@ -132,6 +133,7 @@ Predicted Diseases:
 2. Dengue — 7.41%
 3. Flu — 4.94%
 +-------------------------------------------+
+```
 
 ---
 
@@ -195,14 +197,14 @@ python app.py
 http://127.0.0.1:5000
 
 ## 📈 Results & Accuracy
-```
-Model	Accuracy	Notes
-Decision Tree	81.62%	Simple, interpretable
-Naive Bayes	86.67%	Best classical model
-Logistic Regression	86.71%	Stable and fast
-Deep Learning (DNN)	86.02%	High accuracy but heavy
-Ensemble (Voting)	86.25%	Balanced & consistent
-```
+| Model | Accuracy | Notes |
+|--------|-----------|--------|
+| Decision Tree | 81.62% | Simple, interpretable |
+| Naive Bayes | 86.67% | Best classical model |
+| Logistic Regression | 86.71% | Stable and fast |
+| Deep Learning (DNN) | 86.02% | High accuracy but heavy |
+| Ensemble (Voting) | **86.25%** | Balanced & consistent |
+
 
 ## 🚀 Future Enhancements
 
@@ -217,11 +219,10 @@ Deploy to cloud (Render / Hugging Face / Railway)
 Add authentication for multiple users
 
 ## 🙌 Credits
-```
-Developed by: Rakshith D N
-Dataset: Diseases and Symptoms Dataset (Kaggle)
-Frameworks: Flask, scikit-learn, TensorFlow
-```
+**Developed by:** Rakshith D N  
+**Dataset:** Diseases and Symptoms Dataset (Kaggle)  
+**Frameworks:** Flask, scikit-learn, TensorFlow  
+
 
 ## 🧾 License
 
@@ -236,3 +237,4 @@ You are free to modify and use it for learning or research.
 git add README.md
 git commit -m "Added detailed project README"
 git push origin main
+```
