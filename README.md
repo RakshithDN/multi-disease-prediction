@@ -168,7 +168,9 @@ cd multi-disease-prediction
 ```
 
 ### 2️⃣ Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Place your trained models:
 
@@ -193,12 +195,15 @@ python app.py
 http://127.0.0.1:5000
 
 ## 📈 Results & Accuracy
+```
 Model	Accuracy	Notes
 Decision Tree	81.62%	Simple, interpretable
 Naive Bayes	86.67%	Best classical model
 Logistic Regression	86.71%	Stable and fast
 Deep Learning (DNN)	86.02%	High accuracy but heavy
 Ensemble (Voting)	86.25%	Balanced & consistent
+```
+
 ## 🚀 Future Enhancements
 
 Integrate SBERT symptom similarity model for free-text input
@@ -212,10 +217,11 @@ Deploy to cloud (Render / Hugging Face / Railway)
 Add authentication for multiple users
 
 ## 🙌 Credits
-
+```
 Developed by: Rakshith D N
 Dataset: Diseases and Symptoms Dataset (Kaggle)
 Frameworks: Flask, scikit-learn, TensorFlow
+```
 
 ## 🧾 License
 
