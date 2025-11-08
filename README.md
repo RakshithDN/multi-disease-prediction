@@ -138,17 +138,6 @@ Features:
 
 
 ---
-## 🎨 Frontend Interface
-
-The frontend is built with **HTML, CSS, and JavaScript**, designed for simplicity and usability.
-
-Features:
-- Symptom input text box  
-- “Predict” button  
-- Display of top 3 probable diseases with prediction confidence  
-- Responsive design  
-
----
 
 ### 🖼️ Web App Screenshot
 
@@ -165,8 +154,6 @@ Features:
 multi-disease-prediction/
 │
 ├── app.py # Flask application
-├── requirements.txt # Project dependencies
-├── Procfile # (for deployment, optional)
 ├── README.md # Project documentation
 │
 ├── trained_models/ # Trained model files (not uploaded)
@@ -191,9 +178,9 @@ git clone https://github.com/RakshithDN/multi-disease-prediction.git
 cd multi-disease-prediction
 ```
 
-### 2️⃣ Install dependencies:
+### 2️⃣ Install the required packages (only the essentials):
 ```bash
-pip install -r requirements.txt
+pip install flask joblib numpy pandas scikit-learn
 ```
 
 ### 3️⃣ Place your trained models
@@ -226,12 +213,12 @@ http://127.0.0.1:5000
 
 ## 🚀 Future Enhancements
 
-- Fine-tune or upgrade the SBERT model for better medical text understanding  
 - Expand the dataset to include more diseases and diverse symptom variations  
-- Implement a **weighted ensemble** approach (based on model confidence scores)  
 - Deploy the web app on a public cloud (Render / Hugging Face / Railway)  
-- Add user authentication and history tracking  
-- Build a REST API version for integration with hospital systems or mobile apps
+- Add user authentication and patient history tracking  
+- Improve UI/UX with better symptom suggestions and autocomplete  
+- Build a REST API version for integration with hospital systems or mobile apps  
+- Add multilingual support for wider accessibility  
 
 
 ## 🙌 Credits
