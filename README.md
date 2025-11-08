@@ -218,9 +218,3 @@ You are free to modify and use it for learning or research.
 
 ---
 
-### ✅ **After you paste this into your `README.md` file**, commit and push it:
-```bash
-git add README.md
-git commit -m "Added detailed project README"
-git push origin main
-```
