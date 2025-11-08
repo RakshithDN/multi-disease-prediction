@@ -120,23 +120,6 @@ Features:
 - Display of top 3 probable diseases with prediction confidence
 - Responsive design
 
-<h3 align="center">🖥️ Example Layout</h3>
-
-<pre align="center">
-+-------------------------------------------+
-| 🩺 Multi Disease Prediction System        |
-|-------------------------------------------|
-| [ I have fever and sore throat...      ]  |
-| [ Predict ]                              |
-|-------------------------------------------|
-| Predicted Diseases:                      |
-| 1. Typhoid — 87.65%                      |
-| 2. Dengue — 7.41%                        |
-| 3. Flu — 4.94%                           |
-+-------------------------------------------+
-</pre>
-
-
 ---
 
 ### 🖼️ Web App Screenshot
